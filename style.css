@@ -556,7 +556,7 @@ h4 { font-size: var(--fs-h4) }
 	text-decoration: none;
 	padding: 1em;
 	color: var(--clr-light);
-	font-size: 1.3rem;
+	font-size: .8rem;
 	writing-mode: vertical-rl;
 	letter-spacing: 2px;
 	opacity: 0.5;
@@ -570,6 +570,7 @@ h4 { font-size: var(--fs-h4) }
 	transform: translate(0, -3px);
 }
 
+@media (min-width: 2100px) { .email-a { font-size: 1.3rem } }
 @media (max-width: 800px) { .email-a { font-size: .63rem } }
 @media (max-width: 600px) { .email { display: none } }
 
