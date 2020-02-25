@@ -51,6 +51,7 @@ body {
 
 .container {
 	width: 65%;
+	max-width: 60em;
 	margin: 5em auto 15em auto;
 }
 
