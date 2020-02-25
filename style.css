@@ -21,6 +21,18 @@
 	--fs-small: 0.9rem;
 }
 
+@media (min-width: 2100px) {
+	:root {
+		--fs-img: 17em;
+		--fs-h1: 5.5rem;
+		--fs-h2: 3.5rem;
+		--fs-h3: 2.5rem;
+		--fs-h4: 2.125rem;
+		--fs-body: 1.5rem;
+		--fs-small: 1.4rem;
+	}
+}
+
 @media (max-width: 800px) {
 	:root {
 		--fs-img: 10em;
@@ -51,7 +63,7 @@ body {
 
 .container {
 	width: 65%;
-	max-width: 60em;
+	max-width: 62em;
 	margin: 5em auto 15em auto;
 }
 
@@ -544,7 +556,7 @@ h4 { font-size: var(--fs-h4) }
 	text-decoration: none;
 	padding: 1em;
 	color: var(--clr-light);
-	font-size: .8rem;
+	font-size: 1.3rem;
 	writing-mode: vertical-rl;
 	letter-spacing: 2px;
 	opacity: 0.5;
