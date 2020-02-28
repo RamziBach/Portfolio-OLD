@@ -611,6 +611,7 @@ h4 { font-size: var(--fs-h4) }
 }
 
 .hamburger-li { margin: 2em }
+.hamburger-li:last-child { text-align: center }
 
 .ham-menu { padding: 1em }
 
