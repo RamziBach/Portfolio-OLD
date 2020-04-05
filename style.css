@@ -272,6 +272,8 @@ h4 { font-size: var(--fs-h4) }
 
 .p-opacity { opacity: 0.5 }
 
+.about-ul_div {	display: flex }
+
 .about-ul {
 	padding: 1em;
 	list-style-type: none;
@@ -286,6 +288,8 @@ h4 { font-size: var(--fs-h4) }
 	width: 1em;
 	margin-left: -1em;
 }
+
+.about-ul:first-child { margin-right: 3em }
 
 .about-svg {
 	font-size: var(--fs-img);
