@@ -272,6 +272,11 @@ h4 { font-size: var(--fs-h4) }
 
 .p-opacity { opacity: 0.5 }
 
+.react {
+	opacity: 1;
+	color: var(--clr-accent);
+}
+
 .about-ul_div {	display: flex }
 
 .about-ul {
