@@ -298,6 +298,7 @@ h4 { font-size: var(--fs-h4) }
 
 .about-svg {
 	font-size: var(--fs-img);
+	line-height: 0;
 	color: var(--clr-accent);
 }
 
