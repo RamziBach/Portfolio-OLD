@@ -480,6 +480,25 @@ h4 { font-size: var(--fs-h4) }
 	text-align: center;
 }
 
+.cert-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2em;
+}
+
+.cert {
+	width: var(--fs-img);
+	margin: 1em;
+	border-radius: 10px;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.3);
+	transition: all 0.3s;
+}
+
+.cert:hover {
+	transform: translate(0, -10px);
+}
+
 
 
 
