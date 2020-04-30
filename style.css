@@ -490,7 +490,7 @@ h4 { font-size: var(--fs-h4) }
 .cert {
 	width: var(--fs-img);
 	margin: 1em;
-	border-radius: 10px;
+/*	border-radius: 10px;*/
 	box-shadow: 0 4px 4px rgba(0,0,0,0.3);
 	transition: all 0.3s;
 }
