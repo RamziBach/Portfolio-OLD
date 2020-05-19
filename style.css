@@ -21,6 +21,7 @@
 	--fs-small: 0.9rem;
 }
 
+/*
 @media (min-width: 2100px) {
 	:root {
 		--fs-img: 17em;
@@ -32,6 +33,7 @@
 		--fs-small: 1.4rem;
 	}
 }
+*/
 
 @media (max-width: 800px) {
 	:root {
@@ -73,6 +75,8 @@ h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
 h4 { font-size: var(--fs-h4) }
+
+#landing-container { margin-bottom: 20em }
 
 
 
@@ -599,7 +603,7 @@ h4 { font-size: var(--fs-h4) }
 	transform: translate(0, -3px);
 }
 
-@media (min-width: 2100px) { .email-a { font-size: 1.3rem } }
+/*@media (min-width: 2100px) { .email-a { font-size: 1.3rem } }*/
 @media (max-width: 800px) { .email-a { font-size: .63rem } }
 @media (max-width: 600px) { .email { display: none } }
 
