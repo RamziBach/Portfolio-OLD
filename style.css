@@ -241,9 +241,7 @@ h4 { font-size: var(--fs-h4) }
 	align-items: center;
 }
 
-.bonjours-hidden {
-	visibility: hidden;
-}
+.bonjours-hidden { visibility: hidden }
 
 .about {
 	font-family: var(--ff-roboto);
@@ -312,6 +310,8 @@ h4 { font-size: var(--fs-h4) }
 
 
 /*=====Projects=====*/
+
+#featured-projects { margin-bottom: 15em }
 
 .projects-bonjours { text-align: center }
 
@@ -402,9 +402,7 @@ h4 { font-size: var(--fs-h4) }
 	transition: all 0.3s;
 }
 
-.img-container:hover {
-	transform: translate(0, -10px);
-}
+.img-container:hover { transform: translate(0, -10px) }
 
 .projects-p2 {
 	display: flex;
@@ -432,9 +430,7 @@ h4 { font-size: var(--fs-h4) }
 }
 
 @media (max-width: 1110px) {
-	.projects-child {
-		flex-direction: column;
-	}
+	.projects-child { flex-direction: column }
 	
 	.projects-p {
 		position: static;
@@ -499,9 +495,7 @@ h4 { font-size: var(--fs-h4) }
 	transition: all 0.3s;
 }
 
-.cert:hover {
-	transform: translate(0, -10px);
-}
+.cert:hover { transform: translate(0, -10px) }
 
 
 
@@ -527,9 +521,7 @@ h4 { font-size: var(--fs-h4) }
 
 .footer-links { margin: 1em }
 
-.footer-icons {
-	padding: 1em;
-}
+.footer-icons { padding: 1em }
 
 .footer-p {
 	font-family: var(--ff-source);
