@@ -13,6 +13,7 @@
 	
 	/* Font-Size */
 	--fs-logo: 7em;
+	--fs-cert: 15em;
 	--fs-img: 15em;
 	--fs-h1: 4.5rem;
 	--fs-h2: 2.5rem;
@@ -36,6 +37,8 @@
 }
 */
 
+@media (max-width: 835px) { :root { --fs-cert: 10em } }
+
 @media (max-width: 800px) {
 	:root {
 		--fs-logo: 4em;
@@ -48,6 +51,10 @@
 		--fs-small: .775rem;
 	}
 }
+
+@media (max-width: 520px) { :root { --fs-cert: 7em } }
+
+@media (max-width: 400px) { :root { --fs-cert: 6em } }
 
 *,
 *::before,
@@ -497,6 +504,11 @@ h4 { font-size: var(--fs-h4) }
 	text-align: center;
 }
 
+
+
+
+/*=====Contact=====*/
+
 .cert-div {
 	display: flex;
 	justify-content: center;
@@ -505,7 +517,7 @@ h4 { font-size: var(--fs-h4) }
 }
 
 .cert {
-	width: var(--fs-img);
+	width: var(--fs-cert);
 	margin: 1em;
 /*	border-radius: 10px;*/
 	box-shadow: 0 4px 4px rgba(0,0,0,0.3);
