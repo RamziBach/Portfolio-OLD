@@ -12,6 +12,7 @@
 	--ff-source: 'Source Code Pro', monospace;
 	
 	/* Font-Size */
+	--fs-logo: 7em;
 	--fs-img: 15em;
 	--fs-h1: 4.5rem;
 	--fs-h2: 2.5rem;
@@ -37,6 +38,7 @@
 
 @media (max-width: 800px) {
 	:root {
+		--fs-logo: 4em;
 		--fs-img: 10em;
 		--fs-h1: 3rem;
 		--fs-h2: 2rem;
@@ -111,7 +113,22 @@ h4 { font-size: var(--fs-h4) }
 .header-parent {
 	display: flex;
 	justify-content: space-between;
-	align-items: baseline;
+	align-items: center;
+}
+
+#top-header {
+	margin-top: 1.5em;
+}
+
+/*
+.header-child1 {
+	display: flex;
+	align-items: center;
+}
+*/
+
+.top-logo {
+	width: var(--fs-logo);
 }
 
 .logo {
