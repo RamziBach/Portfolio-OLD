@@ -184,7 +184,7 @@ h4 { font-size: var(--fs-h4) }
 	display: none;
 	cursor: pointer;
 	opacity: 0.5;
-	padding: 1em;
+	padding: 1em 0em 1em 1em;
 	transition: all 0.3s;
 }
 
