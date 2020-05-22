@@ -125,10 +125,12 @@ h4 { font-size: var(--fs-h4) }
 
 #top-header { margin-top: 1.5em }
 
+/*
 .header-child1 {
 	display: flex;
 	align-items: center;
 }
+*/
 
 .top-logo { width: var(--fs-logo) }
 
