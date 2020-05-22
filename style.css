@@ -41,7 +41,7 @@
 
 @media (max-width: 800px) {
 	:root {
-		--fs-logo: 4em;
+		--fs-logo: 6em;
 		--fs-img: 10em;
 		--fs-h1: 3rem;
 		--fs-h2: 2rem;
@@ -123,25 +123,19 @@ h4 { font-size: var(--fs-h4) }
 	align-items: center;
 }
 
-#top-header {
-	margin-top: 1.5em;
-}
+#top-header { margin-top: 1.5em }
 
-/*
 .header-child1 {
 	display: flex;
 	align-items: center;
 }
-*/
 
-.top-logo {
-	width: var(--fs-logo);
-}
+.top-logo { width: var(--fs-logo) }
 
 .logo {
 	text-decoration: none;
 	color: var(--clr-accent);
-	font-weight: 400;
+/*	font-weight: 400;*/
 }
 
 .nav {
