@@ -126,8 +126,7 @@ h4 { font-size: var(--fs-h4) }
 #top-header { margin-top: 1.5em }
 
 .header-child-sticky {
-	margin-top: 1em;
-	margin-bottom: .8em;
+	height: 4.5em;
 }
 
 .top-logo {
