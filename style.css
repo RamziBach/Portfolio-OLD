@@ -542,6 +542,12 @@ h4 { font-size: var(--fs-h4) }
 	opacity: .3;
 }
 
+.captcha {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 
 
