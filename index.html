@@ -13,6 +13,7 @@
     <meta name="keywords" content="web design, html, css, javascript, front-end, developer, junior, design, portfolio, programmer, ramzi bach, Ramzi Bach, coder, designer, freelance, freelancer, hire, hiring, work, job, skill, career, student">
 	<title>Ramzi Bach | Web Developer</title>
 	<script src="https://kit.fontawesome.com/cea17b0653.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
 </head>
 <body>
 	<header class="header">
@@ -43,7 +44,7 @@
 					</h1>
 				</div>
 				<p class="landing-about">I am a passionate front-end web developer and UI/UX enthusiast specialized in building stunning pixel-perfect interactive websites/applications.</p>
-				<p><a class="btn" href="mailto:ramzibach.dev@gmail.com">Contact me</a></p>
+				<p><a class="btn" href="#contact">Contact me</a></p>
 			</div>
 		</div>
 	</div>
@@ -142,7 +143,24 @@
 				<h2 class="bonjours projects-bonjours">03. <span class="projects">Contact</span></h2>
 				<hr class="style-two">
 				<p class="contact-p p-opacity">I would love to work with you. I am currently available for freelancing and hiring opportunities. Whether you are starting a project, have business inquiries or just want to say hi, my inbox is always open so feel free.</p>
-				<p><a class="btn" href="mailto:ramzibach.dev@gmail.com">Contact me</a></p>
+				<form class="form" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+					<div class="contactForm-parent">
+						<div class="contactForm-children">
+							<label class="labels" for="name">Name</label>
+							<input class="form-inputs" id="name" placeholder="Enter name.." type="text" maxlength="40" required>
+						</div>
+						<div class="contactForm-children">
+							<label class="labels" for="email">Email</label>
+							<input class="form-inputs" id="email" placeholder="Enter Email.." type="email" maxlength="40" required>
+						</div>
+					</div>
+					<div>
+						<label class="labels" for="message">Message</label>
+						<textarea class="form-text" name="message" id="message" placeholder="Enter message.." cols="45" rows="10" required></textarea>
+					</div>
+					<div data-netlify-recaptcha="true"></div>
+					<p><button type="submit" class="btn">Send message</button></p>
+				</form>
 			</div>
 		</div>
 	</div>
@@ -163,7 +181,8 @@
 	</div>
 	
 	<div class="email animated bounceInRight delay-1s">
-		<p><a class="email-a" href="mailto:ramzibach.dev@gmail.com">ramzibach.dev@gmail.com</a></p>
+		<p class="email-p animated bounceIn"><i class="email-i far fa-copy"></i></p>
+		<p><a class="email-a" title="Copy to clipboard" data-clipboard-text="ramzibach.dev@gmail.com">ramzibach.dev@gmail.com</a></p>
 	</div>
 	
 	<div class="hamburger-container animated slideInRight faster">
@@ -201,6 +220,30 @@
 		</header>
 	</div>
 	
+	<script>
+		var emailP = document.querySelector('.email-p');
+		var clipboard = new ClipboardJS('.email-a');
+
+		clipboard.on('success', function(e) {
+			if (emailP.style.display !== 'block') {
+				emailP.style.display = 'block';
+				setTimeout(() => {
+					emailP.className = 'email-p animated bounceOut';
+					setTimeout(() => {
+						emailP.style.display = 'none';
+						emailP.className = 'email-p animated bounceIn';
+					}, 1000)
+				}, 1500);
+			}
+
+			e.clearSelection();
+		});
+
+		clipboard.on('error', function(e) {
+			console.error('Action:', e.action);
+			console.error('Trigger:', e.trigger);
+		});
+	</script>
 	<script src="script.js"></script>
 	<script src="typewriter.js"></script>
 </body>

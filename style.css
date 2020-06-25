@@ -53,6 +53,16 @@ body {
 	font-size: var(--fs-body);
 }
 
+button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	display: inline-block;
+	background: none;
+	cursor: pointer;
+}
+
 .container {
 	width: 65%;
 	max-width: 62em;
@@ -477,6 +487,61 @@ h4 { font-size: var(--fs-h4) }
 	text-align: center;
 }
 
+.form {
+	width: 100%;
+	text-align: center;
+}
+
+.contactForm-parent {
+	display: flex;
+	justify-content: center;
+}
+
+.contactForm-children {
+	margin: 1em;
+	transition: all .3s;
+}
+
+.labels {
+	display: block;
+	opacity: 0.7;
+}
+
+.form-inputs {
+	font-family: var(--ff-source);
+	border: 0;
+	outline: 0;
+	background: var(--clr-rgba);
+	padding: 1em 1em 1em .5em;
+	color: var(--clr-accent);
+	font-size: var(--fs-body);
+	border-bottom: 1px solid var(--clr-accent);
+	border-radius: 3px;
+}
+
+.form-inputs::placeholder {
+	color: var(--clr-accent);
+	opacity: .3;
+}
+
+.form-text {
+	font-family: var(--ff-source);
+	border: 0;
+	outline: 0;
+	background: var(--clr-rgba);
+	padding: 1em 1em 1em .5em;
+	color: var(--clr-accent);
+	font-size: var(--fs-body);
+	border-bottom: 1px solid var(--clr-accent);
+	border-radius: 3px;
+	resize: none;
+}
+
+.form-text::placeholder {
+	color: var(--clr-accent);
+	opacity: .3;
+}
+
 
 
 
@@ -557,6 +622,17 @@ h4 { font-size: var(--fs-h4) }
 	font-family: var(--ff-source);
 }
 
+.email-p {
+	display: none;
+	transition: all .3s;
+}
+
+.email-i {
+	font-size: 1.5rem;
+	margin-left: .45em;
+	color: var(--clr-accent);
+}
+
 .email-a {
 	text-decoration: none;
 	padding: 1em;
@@ -565,6 +641,7 @@ h4 { font-size: var(--fs-h4) }
 	writing-mode: vertical-rl;
 	letter-spacing: 2px;
 	opacity: 0.5;
+	cursor: pointer;
 	transition: all 0.3s;
 }
 
