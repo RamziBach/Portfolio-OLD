@@ -53,6 +53,20 @@ body {
 	font-size: var(--fs-body);
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--clr-accent);
+  -webkit-box-shadow: 0 0 0px 0 #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
 button {
 	margin: 0;
 	padding: 0;
@@ -518,6 +532,10 @@ h4 { font-size: var(--fs-h4) }
 .form-inputs::placeholder {
 	color: var(--clr-accent);
 	opacity: .3;
+}
+
+.form-inputs:-webkit-autofill {
+	background-color: transparent;
 }
 
 .form-inputs:hover,
