@@ -546,6 +546,19 @@ h4 { font-size: var(--fs-h4) }
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 1.5em;
+}
+
+@media (max-width: 450px) {
+	.form-inputs { width: 10em }
+	
+	.form-text { width: 22em }
+}
+
+@media (max-width: 345px) {
+	.form-inputs { width: 9em }
+	
+	.form-text { width: 20em }
 }
 
 
@@ -570,6 +583,13 @@ h4 { font-size: var(--fs-h4) }
 	justify-content: center;
 }
 
+.footer-child2 {
+	display: none;
+	justify-content: center;
+}
+
+@media (max-width: 600px) { .footer-child2 { display: flex } }
+
 .footer-links { margin: 1em }
 
 .footer-icons { padding: 1em }
@@ -579,6 +599,8 @@ h4 { font-size: var(--fs-h4) }
 	font-size: var(--fs-small);
 	opacity: 0.5;
 }
+
+.footer-icons { margin: 0 .1em }
 
 
 
