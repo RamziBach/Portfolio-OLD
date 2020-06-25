@@ -592,6 +592,7 @@ h4 { font-size: var(--fs-h4) }
 .clipboard-form {
 	width: 1.3em;
 	height: 0;
+	margin-left: 1em;
 }
 
 .email-i2 {
