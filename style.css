@@ -546,7 +546,11 @@ h4 { font-size: var(--fs-h4) }
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 1.5em;
+	margin: 1em;
+}
+
+#formBtn {
+	margin-top: 3em;
 }
 
 @media (max-width: 450px) {
