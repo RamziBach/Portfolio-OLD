@@ -163,15 +163,6 @@
 					</div>
 					<p id="formBtn"><button id="form-btn" type="submit" class="btn">Send message</button></p>
 				</form>
-				<h2 class="bonjours projects-bonjours"><span class="projects">Or</span></h2>
-				<div class="email2">
-					<div>
-						<p><a class="email-a2" title="Copy to clipboard" data-clipboard-text="ramzibach.dev@gmail.com">ramzibach.dev@gmail.com</a></p>
-					</div>
-					<div class="clipboard-form">
-						<p class="email-p2 animated bounceIn"><i class="email-i2 far fa-copy"></i></p>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -179,7 +170,7 @@
 	<div class="container-footer">
 		<div class="footer-parent">
 			<div class="footer-child">
-				<p class="footer-p">Developed by <strong>Ramzi Bach</strong> with vanilla <strong>JS</strong> &#128170;</p>
+				<p class="footer-p">Developed by <strong>Ramzi Bach</strong> 👔</p>
 			</div>
 			<div class="footer-child2">
 				<h3><a class="icons-a footer-icons" href="https://github.com/RamziBach" target="_blank" title="GitHub"><i class="i fab fa-github"></i></a></h3>
@@ -253,28 +244,6 @@
 					setTimeout(() => {
 						emailP.style.display = 'none';
 						emailP.className = 'email-p animated bounceIn';
-					}, 1000)
-				}, 1500);
-			}
-
-			e.clearSelection();
-		});
-
-		clipboard.on('error', function(e) {
-			console.error('Action:', e.action);
-			console.error('Trigger:', e.trigger);
-		});
-		
-		var clipboard2 = new ClipboardJS('.email-a2');
-
-		clipboard2.on('success', function(e) {
-			if (emailP2.style.display !== 'block') {
-				emailP2.style.display = 'block';
-				setTimeout(() => {
-					emailP2.className = 'email-p animated bounceOut';
-					setTimeout(() => {
-						emailP2.style.display = 'none';
-						emailP2.className = 'email-p animated bounceIn';
 					}, 1000)
 				}, 1500);
 			}
