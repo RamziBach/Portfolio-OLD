@@ -321,9 +321,18 @@ h4 { font-size: var(--fs-h4) }
 	font-size: var(--fs-img);
 	line-height: 0;
 	color: var(--clr-accent);
+	width: 1.5em;
 }
 
-@media (max-width: 1200px) { .about-parent { flex-direction: column	} }
+.profile {
+	margin-top: .5em;
+}
+
+@media (max-width: 1200px) {
+	.about-parent { flex-direction: column	}
+	
+	.profile { margin-top: 0 }
+}
 
 
 
