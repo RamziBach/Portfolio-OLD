@@ -424,13 +424,14 @@ h4 { font-size: var(--fs-h4) }
 .img-container {
 	width: 35em;
 	height: 20em;
-	object-fit: cover;
-	border-radius: 10px;
-	box-shadow: 0 4px 4px rgba(0,0,0,0.3);
+	border: 1px solid var(--clr-accent);
+/*	object-fit: cover;*/
+/*	border-radius: 10px;*/
+/*	box-shadow: 0 4px 4px rgba(0,0,0,0.3);*/
 	transition: all 0.3s;
 }
 
-.img-container:hover { transform: translate(0, -10px) }
+.img-container:hover { transform: translate(0, -10px); background-color: var(--clr-rgba) }
 
 .projects-p2 {
 	display: flex;

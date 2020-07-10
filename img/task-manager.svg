@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Layer1" transform="matrix(1,0,0,1,-1,98.1)">
+        <path d="M1035,539.75C1035,537.128 1032.87,535 1030.25,535L945.75,535C943.128,535 941,537.128 941,539.75L941,549.25C941,551.872 943.128,554 945.75,554L1030.25,554C1032.87,554 1035,551.872 1035,549.25L1035,539.75Z" style="fill:rgb(97,218,251);stroke:rgb(97,218,251);stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,0,47.5)">
+            <path d="M1035,539.75C1035,537.128 1032.87,535 1030.25,535L945.75,535C943.128,535 941,537.128 941,539.75L941,549.25C941,551.872 943.128,554 945.75,554L1030.25,554C1032.87,554 1035,551.872 1035,549.25L1035,539.75Z" style="fill:rgb(97,218,251);stroke:rgb(97,218,251);stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,0,94.75)">
+            <path d="M1035,539.75C1035,537.128 1032.87,535 1030.25,535L945.75,535C943.128,535 941,537.128 941,539.75L941,549.25C941,551.872 943.128,554 945.75,554L1030.25,554C1032.87,554 1035,551.872 1035,549.25L1035,539.75Z" style="fill:rgb(97,218,251);stroke:rgb(97,218,251);stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,0.5,-2)">
+            <text x="1014px" y="436px" style="font-family:'FreestyleScript-Regular', 'Freestyle Script', cursive;font-size:30px;fill:rgb(97,218,251);">Clear tasks</text>
+        </g>
+        <g transform="matrix(1,0,0,1,6,-2)">
+            <text x="810px" y="436px" style="font-family:'FreestyleScript-Regular', 'Freestyle Script', cursive;font-size:30px;fill:rgb(97,218,251);">Add a task</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1.5,-3)">
+            <text x="661.5px" y="338.8px" style="font-family:'FreestyleScript-Regular', 'Freestyle Script', cursive;font-size:24px;fill:rgb(97,218,251);">Add a task...</text>
+        </g>
+        <g transform="matrix(1,0,0,1,15,-14.2)">
+            <text x="760px" y="254.2px" style="font-family:'FreestyleScript-Regular', 'Freestyle Script', cursive;font-size:96px;fill:rgb(97,218,251);">Task Manager</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-0.5,0)">
+            <path d="M660.5,318L660.5,340" style="fill:none;stroke:rgb(97,218,251);stroke-width:1px;"/>
+        </g>
+        <path d="M642,358.5L1280,358.543" style="fill:none;stroke:rgb(97,218,251);stroke-width:1px;"/>
+        <g transform="matrix(1.00617,0,0,1.01695,-5.80247,-7.67797)">
+            <path d="M940,398.953C940,396.219 937.757,394 934.994,394L783.006,394C780.243,394 778,396.219 778,398.953L778,448.047C778,450.781 780.243,453 783.006,453L934.994,453C937.757,453 940,450.781 940,448.047L940,398.953Z" style="fill:none;stroke:rgb(97,218,251);stroke-width:0.99px;"/>
+        </g>
+        <g transform="matrix(1.00617,0,0,1.01695,194.698,-7.67797)">
+            <path d="M940,398.953C940,396.219 937.757,394 934.994,394L783.006,394C780.243,394 778,396.219 778,398.953L778,448.047C778,450.781 780.243,453 783.006,453L934.994,453C937.757,453 940,450.781 940,448.047L940,398.953Z" style="fill:none;stroke:rgb(97,218,251);stroke-width:0.99px;"/>
+        </g>
+        <path d="M920.581,526.352C921.382,525.589 922.635,525.571 923.457,526.311C925.287,527.958 928.421,530.779 930.342,532.507C930.773,532.896 931.026,533.445 931.042,534.025C931.057,534.606 930.833,535.167 930.422,535.578C925.197,540.803 908.501,557.499 903.457,562.543C902.646,563.354 901.337,563.372 900.504,562.583C897.011,559.274 888.337,551.056 884.674,547.586C884.244,547.179 884.004,546.609 884.014,546.016C884.023,545.423 884.281,544.861 884.724,544.468C886.462,542.922 889.108,540.571 890.684,539.17C891.447,538.492 892.584,538.455 893.39,539.081C895.065,540.384 897.864,542.561 899.561,543.881C900.388,544.524 901.561,544.465 902.32,543.743C906.063,540.178 916.719,530.029 920.581,526.352Z" style="fill:rgb(97,218,251);stroke:rgb(97,218,251);stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,-1.01351,47.7323)">
+            <path d="M920.581,526.352C921.382,525.589 922.635,525.571 923.457,526.311C925.287,527.958 928.421,530.779 930.342,532.507C930.773,532.896 931.026,533.445 931.042,534.025C931.057,534.606 930.833,535.167 930.422,535.578C925.197,540.803 908.501,557.499 903.457,562.543C902.646,563.354 901.337,563.372 900.504,562.583C897.011,559.274 888.337,551.056 884.674,547.586C884.244,547.179 884.004,546.609 884.014,546.016C884.023,545.423 884.281,544.861 884.724,544.468C886.462,542.922 889.108,540.571 890.684,539.17C891.447,538.492 892.584,538.455 893.39,539.081C895.065,540.384 897.864,542.561 899.561,543.881C900.388,544.524 901.561,544.465 902.32,543.743C906.063,540.178 916.719,530.029 920.581,526.352Z" style="fill:rgb(97,218,251);stroke:rgb(97,218,251);stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1.03704,0,0,1,-33.9444,0)">
+            <ellipse cx="903" cy="639.25" rx="13.5" ry="13.75" style="fill:rgb(97,218,251);stroke:rgb(97,218,251);stroke-width:0.98px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-10.5,-11)">
+            <text x="836px" y="721.8px" style="font-family:'FreestyleScript-Regular', 'Freestyle Script', cursive;font-size:64px;fill:rgb(97,218,251);">Add tasks above</text>
+        </g>
+    </g>
+</svg>
