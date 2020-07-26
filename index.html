@@ -59,9 +59,9 @@
 	</div>
 
 	<div class="container">
-		<div id="about" class="about-parent">
+		<h2 id="about" class="bonjours-hidden">01. <span class="about">About</span></h2>
+		<div class="about-parent">
 			<div class="about-child">
-				<h2 class="bonjours-hidden">01. <span class="about">About</span></h2>
 				<h2 class="bonjours">01. <span class="about">About</span></h2>
 				<hr class="style-one">
 				<div class="about-p">
@@ -181,11 +181,16 @@
 	<div class="container">
 		<div id="projects" class="projects-opening">
 			<h2 class="bonjours-hidden">01. <span class="about">About</span></h2>
-			<h2 class="bonjours projects-bonjours">02. <span class="projects">Featured projects</span></h2>
+			<h2 class="bonjours projects-bonjours">02. <span class="projects">Projects</span></h2>
 			<hr class="style-two">
 		</div>
-		<div id="featured-projects" class="projects-parent">
+		<div class="projects-parent">
 			<div class="projects-child">
+				<div class="projects-p">
+					<h2 class="projects-title">Task Manager</h2>
+					<p class="p-project"><span class="p-opacity">Create Read Update & Delete including LocalStorage utilizing React, Hooks and context. A task manager for checking off responsibilities.</span></p>
+					<p class="sub-p"><span class="p-opacity"> <strong>React</strong> CSS </span><a class="github" href="https://github.com/RamziBach/Task-Manager" target="_blank" title="GitHub"><i class="i2 fab fa-github"></i></a><a class="no-margins" href="https://reverent-borg-06776d.netlify.app/" target="_blank" title="Link"><i class="i2 fas fa-link"></i></a></p>
+				</div>
 				<a href="https://reverent-borg-06776d.netlify.app/" target="_blank">
 					<!--					<img class="img-container" src="img/task-manager.svg" alt="Website image">-->
 					<svg class="img-container" width="100%" height="100%" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
@@ -386,16 +391,7 @@
 						</g>
 					</svg>
 				</a>
-				<div class="projects-p2">
-					<h2 class="projects-title">Task Manager</h2>
-					<p class="p-project2"><span class="p-opacity">Create Read Update & Delete including LocalStorage utilizing React, Hooks and context. A task manager for checking off responsibilities.</span></p>
-					<p class="sub-p"><a class="no-margins" href="https://reverent-borg-06776d.netlify.app/" target="_blank" title="Link"><i class="i2 fas fa-link"></i></a><a class="github2" href="https://github.com/RamziBach/Task-Manager" target="_blank" title="GitHub"><i class="i2 fab fa-github"></i></a><span class="p-opacity"> <strong>React</strong> CSS</span></p>
-				</div>
 			</div>
-		</div>
-		<div id="projects" class="projects-opening">
-			<h2 class="bonjours projects-bonjours"><span class="projects">Projects</span></h2>
-			<hr class="style-two">
 		</div>
 		<div class="projects-parent">
 			<div class="projects-child">
@@ -1320,11 +1316,6 @@
 			}
 
 			e.clearSelection();
-		});
-
-		clipboard.on('error', function(e) {
-			console.error('Action:', e.action);
-			console.error('Trigger:', e.trigger);
 		});
 
 	</script>
