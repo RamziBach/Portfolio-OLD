@@ -318,6 +318,8 @@ h4 { font-size: var(--fs-h4) }
 .about-ul:first-child { margin-right: 3em }
 
 .about-svg {
+	display: flex;
+	justify-content: center;
 	font-size: var(--fs-img);
 	line-height: 0;
 	color: var(--clr-accent);
